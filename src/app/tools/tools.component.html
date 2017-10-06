@@ -1,0 +1,20 @@
+<mat-card-title>
+  ツール
+</mat-card-title>
+
+<mat-card-content>
+  <mat-nav-list>
+    <span *ngFor="let t of links">
+      <a mat-list-item [routerLink]="t.url">{{t.label}}</a>
+      <br>
+    </span>
+
+    <br><br>
+    <span mat-line>その他ツール・サービスなど</span>
+    <br>
+    <span *ngFor="let t of links2">
+      <a mat-list-item [href]="t.url">{{t.label}}</a>
+      <br>
+    </span>    
+  </mat-nav-list>
+</mat-card-content>

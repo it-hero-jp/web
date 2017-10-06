@@ -1,0 +1,20 @@
+md-card {
+  margin-bottom: 3.0em;
+}
+
+.mat-card {
+  background-image: url('assets/img/hero.jpg');
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+md-card-title,
+md-card-subtitle,
+md-card-content {
+  max-width: 600px;
+}
+
+md-toolbar-row {
+  justify-content: space-between;
+}
